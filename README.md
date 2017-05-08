@@ -1,24 +1,60 @@
-# README
+React on Rails Calendar
+===================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple application that uses React on the front-end and Rails on the back-end. It will allow us to add new events in our calendar, search for them, and edit right there.
 
-Things you may want to cover:
+Summarizing, the application will behave as follows:
 
-* Ruby version
+* When the user creates a new record through the horizontal form, it will be appended to the records table
+* The user will be able to inline-edit any existing record
+* Clicking on any Delete button will remove the associated record from the table
 
-* System dependencies
+----------
 
-* Configuration
+### Discover React on Rails Calendar
 
-* Database creation
+##### Calendar
 
-* Database initialization
+![alt text](https://pbs.twimg.com/media/C_R9JY2XsAITH-G.jpg:large)
 
-* How to run the test suite
+### Installation
 
-* Services (job queues, cache servers, search engines, etc.)
+Things you might want to cover:
 
-* Deployment instructions
+Rails
 
-* ...
+```
+Rails 5.0.0.1
+```
+
+Ruby
+
+```
+ruby 2.3.1p112 
+```
+
+##### System dependencies
+
+```
+gem 'react-rails'
+```
+
+##### Run bundle install from the command line.
+
+```
+bundle install
+```
+
+##### Database creation
+
+```rake db:migrate```
+
+##### Database initialization
+
+```rake db:seed```
+
+##### Rails Server
+
+```rails s```
+
+#### Enjoy!
